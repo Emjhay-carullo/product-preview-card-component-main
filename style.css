@@ -60,7 +60,7 @@ main {
 .card__container__header--name {
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin: 0.5rem 0;
   color: var(--very-dark-blue);
 }
