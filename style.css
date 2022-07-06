@@ -60,7 +60,7 @@ main {
 .card__container__header--name {
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 2.6em;
+  font-size: 2em;
   margin: 0.5rem 0;
   color: var(--very-dark-blue);
 }
@@ -154,6 +154,10 @@ main {
   
   .card__container__header--product {
     letter-spacing: 0.5rem;
+  }
+  
+  .card__container__header--name {
+    font-size: 2.6em;
   }
   
   .card__container__content {
