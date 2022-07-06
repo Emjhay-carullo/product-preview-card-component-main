@@ -54,7 +54,6 @@ main {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
-  letter-spacing: 0.5rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -72,7 +71,6 @@ main {
   font-size: 1em;
   color: rgb(108, 114, 137);
   margin: 0.5rem 0;
-  line-height: 1.4rem;
 }
 
 .card__container__price {
@@ -152,6 +150,14 @@ main {
 
   .card picture {
     flex: 1;
+  }
+  
+  .card__container__header--product {
+    letter-spacing: 0.5rem;
+  }
+  
+  .card__container__content {
+    line-height: 1.4rem;
   }
 
   .card__container__header,
